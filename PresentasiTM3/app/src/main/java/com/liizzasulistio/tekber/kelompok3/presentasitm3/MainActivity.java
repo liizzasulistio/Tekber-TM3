@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnMoveData = findViewById(R.id.btn_data);
         btnMove = findViewById(R.id.btn_move);
 
-
         btnMoveData.setOnClickListener(this);
         btnMove.setOnClickListener(this);
     }

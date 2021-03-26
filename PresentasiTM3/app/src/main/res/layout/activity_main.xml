@@ -28,7 +28,7 @@
 
         <EditText
             android:id="@+id/edt_name"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_toEndOf="@+id/txt_name"
@@ -58,7 +58,7 @@
 
         <EditText
             android:id="@+id/edt_nrp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="41dp"
             android:layout_toEndOf="@+id/txt_nrp"
@@ -85,7 +85,6 @@
         android:layout_below="@id/btn_data"
         android:text="Move without data"
         />
-
 
 
 </RelativeLayout>
