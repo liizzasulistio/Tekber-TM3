@@ -23,9 +23,7 @@ public class ResultActivity extends AppCompatActivity
         String name = getIntent().getStringExtra(EXTRA_NAME);
         String nrp = getIntent().getStringExtra(EXTRA_NRP);
 
-        String txtName = name;
-        String txtNRP = nrp;
-        tvNameRcv.setText(txtName);
-        tvNRPRcv.setText(txtNRP);
+        tvNameRcv.setText(name);
+        tvNRPRcv.setText(nrp);
     }
 }

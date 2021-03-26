@@ -51,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="0dp"
-            android:text="NRP"
+            android:text="@string/nrp"
             android:textSize="24sp"
             android:textStyle="bold"
             />
